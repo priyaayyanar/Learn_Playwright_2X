@@ -32,5 +32,5 @@ let status_code = 404;
 let category = status_code < 300 ? "Success" :
     status_code < 400 ? "Redirect" :
         status_code < 500 ? "Client Error" : "Server Error";
-console.log('Status_Code  :category);
+console.log(`Status_Code : ${status_code} - Category : ${category}`);
 
