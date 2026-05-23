@@ -12,7 +12,7 @@ console.log("" == "0"); // false
 console.log("" == 0); // true -> empty string will typr coerce to a number 0.
 
 console.log(0 == false);
-console.log(null == 0); // null is a primitive value that means "this is empty on purpose."
+console.log(null == 0); //false -> null is a primitive value that means "this is empty on purpose."
 console.log(null == undefined);
 /**Null ↔ Undefined coercion does NOT exist in the spec
 Here's the crucial difference. When you write null == undefined, the algorithm does not convert one into the other. Instead, it hits a special-case shortcut (Steps 2 and 3):
