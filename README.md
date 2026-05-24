@@ -13,6 +13,8 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_05_Literal` | Literals: number, string, template literals, null, undefined, backtick vs quotes |
 | `chapter_06_operators` | Operators: arithmetic, assignment, comparison, logical, ternary, type, nullish coalescing |
 | `chapter_07_If_else` | Conditional statements: if, else if, else, nested if, truthy/falsy, real-world scenarios, and practice tasks |
+| `chapter_08_Switch_Statement` | Switch statements: cases, break, default, grouped cases, real-time examples, and interview questions |
+| `chapter_09_UserInput_Runs_On_Browser` | User input handling: browser prompts, Node.js readline, and prompt-sync module |
 
 ## Topics Covered
 
@@ -40,6 +42,13 @@ This repository contains learning materials and practice code for JavaScript fun
 - Truthy and falsy values in conditions
 - Role-based access control with nested if statements
 - Real-world conditional logic (login, API status, grading systems)
+- Switch statements and case matching
+- Break and default in switch statements
+- Grouped cases in switch
+- Real-world switch examples (traffic signals, menu systems)
+- Switch interview questions and tricky cases
+- User input in browser (prompt, alert)
+- User input in Node.js (readline, prompt-sync)
 
 ## How to Run
 
