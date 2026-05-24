@@ -73,4 +73,16 @@ node 53_IF_ELSE_real.js
 
 ---
 
+## Practice Tasks
+
+The `tasks/` subfolder contains hands-on exercises to reinforce if/else concepts:
+
+| # | File | Task | Description |
+|---|------|------|-------------|
+| 1 | `tasks/56_odd_or_even.js` | Odd or Even | Check if a given number is odd or even using the modulus operator |
+| 2 | `tasks/57_student_grade_calc.js` | Student Grade Calculator | Assign letter grades (A, B, C, D, Fail) based on marks |
+| 3 | `tasks/58_leap_year.js` | Leap Year Check | Determine if a given year is a leap year |
+
+---
+
 > This chapter is part of the **Learn Playwright 2X** JavaScript fundamentals series.

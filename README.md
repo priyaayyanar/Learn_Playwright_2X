@@ -12,8 +12,7 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_04_var_let_const_func_hoisting` | var, let, const, functions, hoisting, scope |
 | `chapter_05_Literal` | Literals: number, string, template literals, null, undefined, backtick vs quotes |
 | `chapter_06_operators` | Operators: arithmetic, assignment, comparison, logical, ternary, type, nullish coalescing |
-| `chapter_07_If_else` | Conditional statements: if, else if, else, nested if, truthy/falsy, real-world scenarios |
-| `tasks` | Practice tasks and mini-projects for reinforcing concepts |
+| `chapter_07_If_else` | Conditional statements: if, else if, else, nested if, truthy/falsy, real-world scenarios, and practice tasks |
 
 ## Topics Covered
 
