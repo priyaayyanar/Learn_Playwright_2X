@@ -15,6 +15,8 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_07_If_else` | Conditional statements: if, else if, else, nested if, truthy/falsy, real-world scenarios, and practice tasks |
 | `chapter_08_Switch_Statement` | Switch statements: cases, break, default, grouped cases, real-time examples, and interview questions |
 | `chapter_09_UserInput_Runs_On_Browser` | User input handling: browser prompts, Node.js readline, and prompt-sync module |
+| `chapter_10_Loops` | JavaScript loops: `for`, `while`, `do...while`, `continue`, and interview questions |
+| `chapter_11_Arrays` | JavaScript arrays: creation, access, modification, searching, iteration, and transformation |
 
 ## Topics Covered
 
@@ -49,6 +51,15 @@ This repository contains learning materials and practice code for JavaScript fun
 - Switch interview questions and tricky cases
 - User input in browser (prompt, alert)
 - User input in Node.js (readline, prompt-sync)
+- `for`, `while`, and `do...while` loops
+- Loop control with `continue`
+- Infinite loop prevention and edge cases
+- JavaScript arrays: literals, `new Array()`, `Array.of()`, `Array.from()`
+- Array indexing and `.at()` for negative indexing
+- Adding and removing elements: `push`, `pop`, `unshift`, `shift`, `splice`
+- Searching arrays: `indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`, `findLast`, `findLastIndex`
+- Iterating arrays: `for`, `for...of`, `forEach`, `for...in`, `entries()`
+- Transforming arrays: `map`, `filter`, `reduce`, `flat`
 
 ## How to Run
 
