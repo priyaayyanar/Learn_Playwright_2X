@@ -17,6 +17,8 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_09_UserInput_Runs_On_Browser` | User input handling: browser prompts, Node.js readline, and prompt-sync module |
 | `chapter_10_Loops` | JavaScript loops: `for`, `while`, `do...while`, `continue`, and interview questions |
 | `chapter_11_Arrays` | JavaScript arrays: creation, access, modification, searching, iteration, and transformation |
+| `chapter_12_Functions` | Functions: rest parameters and interview questions |
+| `chapter_13_Strings` | Strings: properties, searching, substrings, transformation, and conversion |
 
 ## Topics Covered
 
@@ -60,6 +62,16 @@ This repository contains learning materials and practice code for JavaScript fun
 - Searching arrays: `indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`, `findLast`, `findLastIndex`
 - Iterating arrays: `for`, `for...of`, `forEach`, `for...in`, `entries()`
 - Transforming arrays: `map`, `filter`, `reduce`, `flat`
+- Array sorting: `sort` and custom comparators
+- Array slicing: `slice` and shallow copy techniques
+- Rest parameters (`...args`) in functions
+- JavaScript strings: single, double, and backtick quotes
+- String properties: `length`, character access (`charAt`, `at`, bracket notation)
+- Searching and checking strings: `indexOf`, `lastIndexOf`, `includes`, `startsWith`, `endsWith`, `search`, `match`, `matchAll`
+- Substring methods: `slice`, `substring`, `substr`
+- String transformation: `toUpperCase`, `toLowerCase`, `trim`, `replace`, `split`, `concat`, `padStart`, `padEnd`, `repeat`
+- String conversion and encoding methods
+- JavaScript String Cheatsheet reference
 
 ## How to Run
 
