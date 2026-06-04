@@ -16,8 +16,8 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_08_Switch_Statement` | Switch statements: cases, break, default, grouped cases, real-time examples, and interview questions |
 | `chapter_09_UserInput_Runs_On_Browser` | User input handling: browser prompts, Node.js readline, and prompt-sync module |
 | `chapter_10_Loops` | JavaScript loops: `for`, `while`, `do...while`, `continue`, and interview questions |
-| `chapter_11_Arrays` | JavaScript arrays: creation, access, modification, searching, iteration, and transformation |
-| `chapter_12_Functions` | Functions: rest parameters and interview questions |
+| `chapter_11_Arrays` | JavaScript arrays: creation, access, modification, searching, iteration, transformation, slicing, splicing, concatenation, and checking |
+| `chapter_12_Functions` | Functions: basic functions, parameter and return types, template literals, function expressions, arrow functions, rest parameters, and interview questions |
 | `chapter_13_Strings` | Strings: properties, searching, substrings, transformation, and conversion |
 
 ## Topics Covered
