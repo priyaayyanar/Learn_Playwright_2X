@@ -19,6 +19,8 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_11_Arrays` | JavaScript arrays: creation, access, modification, searching, iteration, transformation, slicing, splicing, concatenation, and checking |
 | `chapter_12_Functions` | Functions: basic functions, parameter and return types, template literals, function expressions, arrow functions, IIFE, default parameters, rest parameters, spread operator, scope, nested functions, closures, higher-order functions, and interview questions |
 | `chapter_13_Strings` | Strings: properties, searching, substrings, transformation, and conversion |
+| `chapter_14_Objects` | Objects: creation, key-value pairs, property access, reference vs primitive types, real-world config objects |
+| `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle) and String (Anagram, Palindrome) |
 
 ## Topics Covered
 
@@ -82,6 +84,12 @@ This repository contains learning materials and practice code for JavaScript fun
 - String transformation: `toUpperCase`, `toLowerCase`, `trim`, `replace`, `split`, `concat`, `padStart`, `padEnd`, `repeat`
 - String conversion and encoding methods
 - JavaScript String Cheatsheet reference
+- JavaScript objects: creation, key-value pairs, dot and bracket notation
+- Object properties: adding, modifying, deleting
+- Reference vs primitive types in JavaScript
+- Object reference equality and heap memory behavior
+- Real-world object usage (config objects, test configurations)
+- Practice tasks: Fizz Buzz, triangle patterns, anagram check, palindrome check
 
 ## How to Run
 
