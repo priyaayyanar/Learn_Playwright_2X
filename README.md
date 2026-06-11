@@ -19,7 +19,8 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_11_Arrays` | JavaScript arrays: creation, access, modification, searching, iteration, transformation, slicing, splicing, concatenation, and checking |
 | `chapter_12_Functions` | Functions: basic functions, parameter and return types, template literals, function expressions, arrow functions, IIFE, default parameters, rest parameters, spread operator, scope, nested functions, closures, higher-order functions, and interview questions |
 | `chapter_13_Strings` | Strings: properties, searching, substrings, transformation, and conversion |
-| `chapter_14_Objects` | Objects: creation, key-value pairs, property access, reference vs primitive types, real-world config objects |
+| `chapter_14_Objects` | Objects: creation, key-value pairs, property access, methods, destructuring, spread, getters/setters, `Object.keys`/`values`/`entries`, `for...in`, `let` vs `const` with objects, reference vs primitive types, real-world config objects |
+| `chapter_16_Callback` | Callbacks: introduction and examples |
 | `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle) and String (Anagram, Palindrome) |
 
 ## Topics Covered
@@ -89,6 +90,16 @@ This repository contains learning materials and practice code for JavaScript fun
 - Reference vs primitive types in JavaScript
 - Object reference equality and heap memory behavior
 - Real-world object usage (config objects, test configurations)
+- Object methods and the `this` keyword
+- Object destructuring: basic, rename variables, default values, nested objects
+- Object spread operator (`...`) for cloning and merging
+- Getter and setter methods in objects
+- Object utility methods: `Object.keys`, `Object.values`, `Object.entries`
+- `for...in` loop for iterating over object properties
+- `let` vs `const` with objects (mutable properties vs immutable reference)
+- Dynamic property access with bracket notation
+- Object property descriptors (`Object.getOwnPropertyDescriptor`)
+- Callbacks: introduction and examples
 - Practice tasks: Fizz Buzz, triangle patterns, anagram check, palindrome check
 
 ## How to Run
