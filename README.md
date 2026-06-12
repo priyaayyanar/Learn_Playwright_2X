@@ -23,7 +23,7 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_15_MultiDimentional_Array_2D` | Multi-dimensional arrays: 2D arrays, matrix traversal, dynamic row/column length, real-world test matrices, pattern problems |
 | `chapter_16_Callback` | Callbacks: introduction and examples |
 | `LiveTest` | Live coding challenges and practice tests |
-| `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle) and String (Anagram, Palindrome) |
+| `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), and Multi-Dimensional Array (pyramid patterns) |
 
 ## Topics Covered
 
