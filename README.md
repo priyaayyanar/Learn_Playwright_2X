@@ -20,7 +20,9 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_12_Functions` | Functions: basic functions, parameter and return types, template literals, function expressions, arrow functions, IIFE, default parameters, rest parameters, spread operator, scope, nested functions, closures, higher-order functions, and interview questions |
 | `chapter_13_Strings` | Strings: properties, searching, substrings, transformation, and conversion |
 | `chapter_14_Objects` | Objects: creation, key-value pairs, property access, methods, destructuring, spread, getters/setters, `Object.keys`/`values`/`entries`, `for...in`, `let` vs `const` with objects, reference vs primitive types, real-world config objects |
+| `chapter_15_MultiDimentional_Array_2D` | Multi-dimensional arrays: 2D arrays, matrix traversal, dynamic row/column length, real-world test matrices, pattern problems |
 | `chapter_16_Callback` | Callbacks: introduction and examples |
+| `LiveTest` | Live coding challenges and practice tests |
 | `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle) and String (Anagram, Palindrome) |
 
 ## Topics Covered
@@ -99,6 +101,11 @@ This repository contains learning materials and practice code for JavaScript fun
 - `let` vs `const` with objects (mutable properties vs immutable reference)
 - Dynamic property access with bracket notation
 - Object property descriptors (`Object.getOwnPropertyDescriptor`)
+- Multi-dimensional arrays (2D arrays)
+- Matrix traversal with nested loops
+- Dynamic row and column length in 2D arrays
+- Real-world 2D array examples (test suites, score matrices)
+- Pattern problems using nested loops (pyramid patterns)
 - Callbacks: introduction and examples
 - Practice tasks: Fizz Buzz, triangle patterns, anagram check, palindrome check
 
