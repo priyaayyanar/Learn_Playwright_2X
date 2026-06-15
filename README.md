@@ -21,7 +21,7 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_13_Strings` | Strings: properties, searching, substrings, transformation, and conversion |
 | `chapter_14_Objects` | Objects: creation, key-value pairs, property access, methods, destructuring, spread, getters/setters, `Object.keys`/`values`/`entries`, `for...in`, `let` vs `const` with objects, reference vs primitive types, real-world config objects |
 | `chapter_15_MultiDimentional_Array_2D` | Multi-dimensional arrays: 2D arrays, matrix traversal, dynamic row/column length, real-world test matrices, pattern problems |
-| `chapter_16_Callback` | Callbacks: introduction and examples |
+| `chapter_16_Callback` | Callbacks: introduction, anonymous/arrow callbacks, real-time examples, Playwright `test` callback, synchronous vs asynchronous, callback hell / pyramid of doom, callbacks with parameters and return values |
 | `LiveTest` | Live coding challenges and practice tests |
 | `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), and Multi-Dimensional Array (pyramid patterns) |
 
@@ -107,6 +107,15 @@ This repository contains learning materials and practice code for JavaScript fun
 - Real-world 2D array examples (test suites, score matrices)
 - Pattern problems using nested loops (pyramid patterns)
 - Callbacks: introduction and examples
+- Normal functions, anonymous functions, and arrow functions as callbacks
+- Real-time callback examples (test framework, cafe scenario)
+- Playwright `test` function and callback pattern
+- `setTimeout` for simulating asynchronous behavior
+- Synchronous callbacks (`forEach`)
+- Asynchronous callbacks and execution order
+- Callback Hell / Pyramid of Doom
+- 24-step end-to-end callback hell example (E2E checkout flow)
+- Callbacks with parameters and return values
 - Practice tasks: Fizz Buzz, triangle patterns, anagram check, palindrome check
 
 ## How to Run
