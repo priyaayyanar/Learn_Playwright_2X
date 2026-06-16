@@ -1,6 +1,8 @@
-1. Closure -> nothing but an another function call along with currect code execution.
+1. Closure -> nothing but an another function call along with current code execution.
 [Not used(like old nokia phone) (Callback/ Asynch/ Await used most of the times)]
 
 2. Callback
 3. Asynch
 4. Await
+
+-> if-else is decision making and promise is handling the asynchronouse operations

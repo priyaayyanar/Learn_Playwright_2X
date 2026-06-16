@@ -22,6 +22,7 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_14_Objects` | Objects: creation, key-value pairs, property access, methods, destructuring, spread, getters/setters, `Object.keys`/`values`/`entries`, `for...in`, `let` vs `const` with objects, reference vs primitive types, real-world config objects |
 | `chapter_15_MultiDimentional_Array_2D` | Multi-dimensional arrays: 2D arrays, matrix traversal, dynamic row/column length, real-world test matrices, pattern problems |
 | `chapter_16_Callback` | Callbacks: introduction, anonymous/arrow callbacks, real-time examples, Playwright `test` callback, synchronous vs asynchronous, callback hell / pyramid of doom, callbacks with parameters and return values |
+| `chapter_17_Promise` | Promises: creation, resolve/reject, `.then()`, `.catch()`, `.finally()`, promise chaining, callback-to-promise transformation, `Promise.all`, `Promise.allSettled`, and interview questions |
 | `LiveTest` | Live coding challenges and practice tests |
 | `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), and Multi-Dimensional Array (pyramid patterns) |
 
@@ -116,6 +117,15 @@ This repository contains learning materials and practice code for JavaScript fun
 - Callback Hell / Pyramid of Doom
 - 24-step end-to-end callback hell example (E2E checkout flow)
 - Callbacks with parameters and return values
+- Promises: creating with `new Promise`, `resolve`, and `reject`
+- Promise `.then()` for handling successful resolution
+- Promise `.catch()` for handling rejection/errors
+- Promise `.finally()` for cleanup regardless of outcome
+- Promise chaining: sequential async steps (open browser → login → enter credentials → click login)
+- Transforming callback hell into clean promise chains
+- `Promise.all`: running multiple promises in parallel (all must pass)
+- `Promise.allSettled`: getting results for all promises regardless of pass/fail
+- Promise interview questions and tricky cases
 - Practice tasks: Fizz Buzz, triangle patterns, anagram check, palindrome check
 
 ## How to Run
