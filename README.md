@@ -23,6 +23,7 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_15_MultiDimentional_Array_2D` | Multi-dimensional arrays: 2D arrays, matrix traversal, dynamic row/column length, real-world test matrices, pattern problems |
 | `chapter_16_Callback` | Callbacks: introduction, anonymous/arrow callbacks, real-time examples, Playwright `test` callback, synchronous vs asynchronous, callback hell / pyramid of doom, callbacks with parameters and return values |
 | `chapter_17_Promise` | Promises: creation, resolve/reject, `.then()`, `.catch()`, `.finally()`, promise chaining, callback-to-promise transformation, `Promise.all`, `Promise.allSettled`, and interview questions |
+| `chapter_18_Async_Await` | Async/Await: `async` functions, `await` keyword, error handling with `try...catch...finally`, sequential vs parallel execution, promise-to-async transformation, Playwright `async/await` syntax, and interview questions |
 | `chapter_19_Playwright_Basics` | Playwright basics: installation, browser automation fundamentals |
 | `LiveTest` | Live coding challenges and practice tests |
 | `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), and Multi-Dimensional Array (pyramid patterns) |
@@ -127,6 +128,15 @@ This repository contains learning materials and practice code for JavaScript fun
 - `Promise.all`: running multiple promises in parallel (all must pass)
 - `Promise.allSettled`: getting results for all promises regardless of pass/fail
 - Promise interview questions and tricky cases
+- `async` function declaration and implicit promise return
+- `await` keyword for pausing execution until a promise resolves/rejects
+- Error handling in async code: `try...catch...finally`
+- Converting promise chains (`.then`/`.catch`) to clean `async/await` syntax
+- Sequential async execution with `await` when steps depend on each other
+- Parallel async execution with `Promise.all` / `Promise.allSettled` inside `async` functions
+- Playwright `async/await` syntax: `async ({ page })`, `await page.goto()`, `await expect()`
+- Playwright `test.step` with async callbacks
+- Async/await interview questions and execution order behavior
 - Playwright basics: installation and setup
 - Practice tasks: Fizz Buzz, triangle patterns, anagram check, palindrome check
 
