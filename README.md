@@ -24,7 +24,7 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_16_Callback` | Callbacks: introduction, anonymous/arrow callbacks, real-time examples, Playwright `test` callback, synchronous vs asynchronous, callback hell / pyramid of doom, callbacks with parameters and return values |
 | `chapter_17_Promise` | Promises: creation, resolve/reject, `.then()`, `.catch()`, `.finally()`, promise chaining, callback-to-promise transformation, `Promise.all`, `Promise.allSettled`, and interview questions |
 | `chapter_18_Async_Await` | Async/Await: `async` functions, `await` keyword, error handling with `try...catch...finally`, sequential vs parallel execution, promise-to-async transformation, Playwright `async/await` syntax, and interview questions |
-| `chapter_19_Playwright_Basics` | Playwright basics: installation, browser automation fundamentals |
+| `chapter_19_Playwright_Basics` | Playwright basics: installation, browser automation fundamentals, title verification, valid/invalid login tests, locators, and assertions |
 | `LiveTest` | Live coding challenges and practice tests |
 | `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), and Multi-Dimensional Array (pyramid patterns) |
 
@@ -138,12 +138,25 @@ This repository contains learning materials and practice code for JavaScript fun
 - Playwright `test.step` with async callbacks
 - Async/await interview questions and execution order behavior
 - Playwright basics: installation and setup
+- Playwright test examples: title verification, valid login, invalid login
+- Playwright locators: `page.locator()`, `page.getByRole()`
+- Playwright assertions: `toHaveTitle`, `toBeVisible`, `toContainText`
+- Playwright configuration: `playwright.config.ts`
 - Practice tasks: Fizz Buzz, triangle patterns, anagram check, palindrome check
 
 ## How to Run
 
+### JavaScript Files
 ```bash
 node <filename>.js
+```
+
+### Playwright Tests
+```bash
+cd chapter_19_Playwright_Basics
+npx playwright test        # Run all tests
+npx playwright test --ui   # Run tests with UI
+npx playwright show-report # Show HTML report
 ```
 
 ## Author
