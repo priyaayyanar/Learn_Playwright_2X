@@ -25,6 +25,8 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_17_Promise` | Promises: creation, resolve/reject, `.then()`, `.catch()`, `.finally()`, promise chaining, callback-to-promise transformation, `Promise.all`, `Promise.allSettled`, and interview questions |
 | `chapter_18_Async_Await` | Async/Await: `async` functions, `await` keyword, error handling with `try...catch...finally`, sequential vs parallel execution, promise-to-async transformation, Playwright `async/await` syntax, and interview questions |
 | `chapter_19_Playwright_Basics` | Playwright basics: installation, browser automation fundamentals, title verification, valid/invalid login tests, locators, and assertions |
+| `chapter_20_EXPORT_IMPORT` | Export and import: named exports, default exports, module system basics, import aliases |
+| `chapter_21_CLASS_OBJECT` | Classes and objects: class declaration, object creation, constructor, private/public fields, static members |
 | `LiveTest` | Live coding challenges and practice tests |
 | `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), and Multi-Dimensional Array (pyramid patterns) |
 
@@ -143,6 +145,17 @@ This repository contains learning materials and practice code for JavaScript fun
 - Playwright assertions: `toHaveTitle`, `toBeVisible`, `toContainText`
 - Playwright configuration: `playwright.config.ts`
 - Practice tasks: Fizz Buzz, triangle patterns, anagram check, palindrome check
+- Named exports and default exports in JavaScript modules
+- Import syntax with curly braces `{}` for named imports
+- Import aliases with `as` keyword
+- Default import syntax (no braces required)
+- JavaScript classes: declaration, attributes, and behaviors
+- Object creation with `new` keyword and heap memory behavior
+- Class constructors for initializing object properties
+- Private fields (`#`) and public fields in classes
+- Custom methods to access private fields
+- Static properties and static methods in classes
+- Static members accessed via class name (not instance)
 
 ## How to Run
 
