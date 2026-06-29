@@ -20,3 +20,5 @@ console.log(student2.phNo);
 
 console.log(Student.course_name);
 console.log(Student.mentor_name);
+
+Student.display();

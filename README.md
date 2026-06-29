@@ -28,7 +28,7 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_20_EXPORT_IMPORT` | Export and import: named exports, default exports, module system basics, import aliases |
 | `chapter_21_CLASS_OBJECT` | Classes and objects: class declaration, object creation, constructor, private/public fields, static members |
 | `LiveTest` | Live coding challenges and practice tests |
-| `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), and Multi-Dimensional Array (pyramid patterns) |
+| `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), Multi-Dimensional Array (pyramid patterns), and Class/Object (Calculator, Student Profile) |
 
 ## Topics Covered
 
@@ -144,7 +144,7 @@ This repository contains learning materials and practice code for JavaScript fun
 - Playwright locators: `page.locator()`, `page.getByRole()`
 - Playwright assertions: `toHaveTitle`, `toBeVisible`, `toContainText`
 - Playwright configuration: `playwright.config.ts`
-- Practice tasks: Fizz Buzz, triangle patterns, anagram check, palindrome check
+- Practice tasks: Fizz Buzz, triangle patterns, anagram check, palindrome check, Calculator class with static methods, Student Profile class with static and instance members
 - Named exports and default exports in JavaScript modules
 - Import syntax with curly braces `{}` for named imports
 - Import aliases with `as` keyword
