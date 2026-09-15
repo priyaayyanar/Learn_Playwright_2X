@@ -27,6 +27,11 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_19_Playwright_Basics` | Playwright basics: installation, browser automation fundamentals, title verification, valid/invalid login tests, locators, and assertions |
 | `chapter_20_EXPORT_IMPORT` | Export and import: named exports, default exports, module system basics, import aliases |
 | `chapter_21_CLASS_OBJECT` | Classes and objects: class declaration, object creation, constructor, private/public fields, static members |
+| `chapter_22_Encapsulation` | Encapsulation: private fields (`#`), getters/setters, access control, data hiding (bank, car, real-world examples) |
+| `chapter_23_Inheritance` | Inheritance: single, multilevel, hierarchical, and multiple inheritance, method reuse, Page Object Model example |
+| `chapter_24_Polymorphism` | Polymorphism: method overriding and runtime behavior |
+| `chapter_25_OOP_Interview_Questions` | OOP interview question exercises |
+| `chapter_26_Typescript` | TypeScript: primitive and special types, arrays, function/arrow annotations, object annotations, `any`/`unknown`/`never`/`void`, interview questions |
 | `LiveTest` | Live coding challenges and practice tests |
 | `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), Multi-Dimensional Array (pyramid patterns), Class/Object (Calculator, Student Profile), and OOPs Encapsulation |
 
@@ -156,12 +161,29 @@ This repository contains learning materials and practice code for JavaScript fun
 - Custom methods to access private fields
 - Static properties and static methods in classes
 - Static members accessed via class name (not instance)
+- Encapsulation: private fields (`#`), getters and setters, and access control
+- Inheritance: `extends`, `super`, single, multilevel, hierarchical inheritance, and the Page Object Model example
+- Polymorphism: method overriding
+- OOP interview questions (encapsulation, inheritance, polymorphism)
+- TypeScript setup: `typescript` and `ts-node` dev dependencies and `tsconfig.json`
+- TypeScript primitive types: `string`, `number`, `boolean`, `null`, `undefined`
+- TypeScript arrays: `number[]` and `Array<string>` syntax
+- Special types: `any`, `unknown`, `void`, and `never`
+- Type narrowing with `typeof`
+- Type annotations for variables, functions, arrow functions, and object literals
+- TypeScript interview questions (typed helpers, filtering API response codes)
 
 ## How to Run
 
 ### JavaScript Files
 ```bash
 node <filename>.js
+```
+
+### TypeScript Files
+```bash
+npx ts-node <filename>.ts   # Run directly
+npx tsc <filename>.ts       # Type-check / compile
 ```
 
 ### Playwright Tests
