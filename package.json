@@ -1,6 +1,11 @@
 {
   "devDependencies": {
-    "@playwright/test": "^1.61.0"
+    "@playwright/test": "^1.61.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.1.247"
+  }
 }
