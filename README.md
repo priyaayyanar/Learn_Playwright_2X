@@ -32,6 +32,7 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_24_Polymorphism` | Polymorphism: method overriding and runtime behavior |
 | `chapter_25_OOP_Interview_Questions` | OOP interview question exercises |
 | `chapter_26_Typescript` | TypeScript: primitive and special types, arrays, function/arrow annotations, object annotations, `any`/`unknown`/`never`/`void`, interview questions |
+| `chapter_27_TypeScript_Interface` | TypeScript interfaces: basic interfaces, optional properties, `readonly`, function signatures, callable interfaces (hooks), interface inheritance with `extends`, and classes implementing interfaces |
 | `LiveTest` | Live coding challenges and practice tests |
 | `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), Multi-Dimensional Array (pyramid patterns), Class/Object (Calculator, Student Profile), and OOPs Encapsulation |
 
@@ -172,6 +173,14 @@ This repository contains learning materials and practice code for JavaScript fun
 - Type narrowing with `typeof`
 - Type annotations for variables, functions, arrow functions, and object literals
 - TypeScript interview questions (typed helpers, filtering API response codes)
+- TypeScript interfaces: defining object shapes and typing test case data
+- Optional properties (`?`) in interfaces
+- `readonly` properties and read-only arrays in interfaces
+- Interface methods and function signatures (calculator example)
+- Callable interfaces for test hooks (`beforeEach` / `afterEach` abstraction)
+- Real-world interface examples (API responses, bug reports, test configuration)
+- Interface inheritance with `extends` (Page Object Model style `BaseURL` → `LoginPage` / `FreeTrialPage`)
+- Classes implementing interfaces with `implements` (class-based test case contract)
 
 ## How to Run
 
