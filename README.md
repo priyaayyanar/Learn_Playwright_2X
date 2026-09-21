@@ -33,6 +33,8 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_25_OOP_Interview_Questions` | OOP interview question exercises |
 | `chapter_26_Typescript` | TypeScript: primitive and special types, arrays, function/arrow annotations, object annotations, `any`/`unknown`/`never`/`void`, interview questions |
 | `chapter_27_TypeScript_Interface` | TypeScript interfaces: basic interfaces, optional properties, `readonly`, function signatures, callable interfaces (hooks), interface inheritance with `extends`, and classes implementing interfaces |
+| `chapter_28_ENUM` | TypeScript enums: string enums, enums as function parameters, switch over enum values, and real-world examples (test status, severity levels, environments, browsers, HTTP methods) |
+| `chapter_29_Typescript_Generic` | TypeScript generics: generic functions, generic classes, the non-null assertion operator (`!`), explicit type arguments, and a generic API response wrapper |
 | `LiveTest` | Live coding challenges and practice tests |
 | `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), Multi-Dimensional Array (pyramid patterns), Class/Object (Calculator, Student Profile), and OOPs Encapsulation |
 
@@ -181,6 +183,15 @@ This repository contains learning materials and practice code for JavaScript fun
 - Real-world interface examples (API responses, bug reports, test configuration)
 - Interface inheritance with `extends` (Page Object Model style `BaseURL` → `LoginPage` / `FreeTrialPage`)
 - Classes implementing interfaces with `implements` (class-based test case contract)
+- TypeScript enums: string enums for fixed sets of values
+- Enums as function parameters and type-safe arguments
+- Switching over enum values (browser launcher example)
+- Real-world enum examples: test status, severity levels, environments, browsers, HTTP methods
+- TypeScript generics: generic functions `<T>` for reusable, type-safe code
+- Explicit type arguments when calling generic functions (`getFirstResult<number>`)
+- Generic classes (`TestDataStorage<T>`) with typed items and methods
+- The non-null assertion operator (`!`) and its compile-time-only effect
+- Generic API response wrapper returning typed `{ statusCode, data }` objects
 
 ## How to Run
 
