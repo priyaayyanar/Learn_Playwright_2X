@@ -35,6 +35,7 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_27_TypeScript_Interface` | TypeScript interfaces: basic interfaces, optional properties, `readonly`, function signatures, callable interfaces (hooks), interface inheritance with `extends`, and classes implementing interfaces |
 | `chapter_28_ENUM` | TypeScript enums: string enums, enums as function parameters, switch over enum values, and real-world examples (test status, severity levels, environments, browsers, HTTP methods) |
 | `chapter_29_Typescript_Generic` | TypeScript generics: generic functions, generic classes, the non-null assertion operator (`!`), explicit type arguments, and a generic API response wrapper |
+| `chapter_30_PRIVATE_PUBLIC_PROTECTED` | Access modifiers and abstract classes: `public`/`private`/`protected`, Page Object Model with `protected`, `readonly` properties, and abstract classes with abstract methods |
 | `LiveTest` | Live coding challenges and practice tests |
 | `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), Multi-Dimensional Array (pyramid patterns), Class/Object (Calculator, Student Profile), and OOPs Encapsulation |
 
@@ -192,6 +193,13 @@ This repository contains learning materials and practice code for JavaScript fun
 - Generic classes (`TestDataStorage<T>`) with typed items and methods
 - The non-null assertion operator (`!`) and its compile-time-only effect
 - Generic API response wrapper returning typed `{ statusCode, data }` objects
+- TypeScript access modifiers: `public`, `private`, and `protected` members
+- `private` methods inaccessible from subclasses (API client auth header example)
+- `protected` members shared with subclasses (timeout, `getUsers` example)
+- Page Object Model using `protected` base class members (`BasePage` → `LoginPage`)
+- `readonly` properties for immutable configuration (`PlaywrightConfig`)
+- Abstract classes and abstract methods (`abstract class BaseTest`)
+- Enforcing implementation contracts in subclasses (`UITest` implementing `setup`, `execute`, `teardown`)
 
 ## How to Run
 
