@@ -24,6 +24,9 @@ class UITest extends BaseTest {
     teardown(): void {
         console.log("  Teardown: close browser");
     }
+    loan(): void {
+        console.log("My Father has loan. I have to settle it :D");
+    }
     childLoan(): void {
         console.log("GIVE LOAN");
 
@@ -40,6 +43,7 @@ test.printTestName();
 test.setup();
 test.execute();
 test.teardown();
+test.loan();
 test.parentLoan();
 test.childLoan();
 

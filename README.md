@@ -199,7 +199,7 @@ This repository contains learning materials and practice code for JavaScript fun
 - Page Object Model using `protected` base class members (`BasePage` → `LoginPage`)
 - `readonly` properties for immutable configuration (`PlaywrightConfig`)
 - Abstract classes and abstract methods (`abstract class BaseTest`)
-- Enforcing implementation contracts in subclasses (`UITest` implementing `setup`, `execute`, `teardown`)
+- Enforcing implementation contracts in subclasses (`UITest` implementing `setup`, `execute`, `teardown`, `loan`)
 
 ## How to Run
 
