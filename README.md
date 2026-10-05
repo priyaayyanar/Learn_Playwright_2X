@@ -37,6 +37,7 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_29_Typescript_Generic` | TypeScript generics: generic functions, generic classes, the non-null assertion operator (`!`), explicit type arguments, and a generic API response wrapper |
 | `chapter_30_PRIVATE_PUBLIC_PROTECTED` | Access modifiers and abstract classes: `public`/`private`/`protected`, Page Object Model with `protected`, `readonly` properties, and abstract classes with abstract methods |
 | `chapter_31_Type_Overide_Decortors` | Type assertions (`as`), the `override` keyword and method overriding, and TypeScript decorators (legacy vs Stage 3 signatures, multiple decorators, execution order) |
+| `chapter_32_Playwright_Started` | Playwright setup from scratch: project initialization, `playwright.config.ts` configuration, and a first test verifying a page title |
 | `LiveTest` | Live coding challenges and practice tests |
 | `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), Multi-Dimensional Array (pyramid patterns), Class/Object (Calculator, Student Profile), and OOPs Encapsulation |
 
@@ -208,6 +209,9 @@ This repository contains learning materials and practice code for JavaScript fun
 - Newer (Stage 3) decorator signature (`originalMethod`, `context`) for wrapping methods
 - Applying multiple decorators to a method and their execution order (bottom-up)
 - Enabling decorators in `tsconfig.json` (`experimentalDecorators`, `target: es2022` down-leveling)
+- Setting up a Playwright project from scratch (`npm init`, `@playwright/test` install)
+- Playwright configuration for a new project (`testDir`, Chromium project, HTML reporter, `trace: 'on-first-retry'`)
+- Writing a first Playwright test to verify a page title (`toHaveTitle`)
 
 ## How to Run
 
