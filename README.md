@@ -36,6 +36,7 @@ This repository contains learning materials and practice code for JavaScript fun
 | `chapter_28_ENUM` | TypeScript enums: string enums, enums as function parameters, switch over enum values, and real-world examples (test status, severity levels, environments, browsers, HTTP methods) |
 | `chapter_29_Typescript_Generic` | TypeScript generics: generic functions, generic classes, the non-null assertion operator (`!`), explicit type arguments, and a generic API response wrapper |
 | `chapter_30_PRIVATE_PUBLIC_PROTECTED` | Access modifiers and abstract classes: `public`/`private`/`protected`, Page Object Model with `protected`, `readonly` properties, and abstract classes with abstract methods |
+| `chapter_31_Type_Overide_Decortors` | Type assertions (`as`), the `override` keyword and method overriding, and TypeScript decorators (legacy vs Stage 3 signatures, multiple decorators, execution order) |
 | `LiveTest` | Live coding challenges and practice tests |
 | `Tasks` | Practice tasks: Loops (Fizz Buzz, triangle), String (Anagram, Palindrome), Multi-Dimensional Array (pyramid patterns), Class/Object (Calculator, Student Profile), and OOPs Encapsulation |
 
@@ -200,6 +201,13 @@ This repository contains learning materials and practice code for JavaScript fun
 - `readonly` properties for immutable configuration (`PlaywrightConfig`)
 - Abstract classes and abstract methods (`abstract class BaseTest`)
 - Enforcing implementation contracts in subclasses (`UITest` implementing `setup`, `execute`, `teardown`, `loan`)
+- Type assertions with `as` to narrow `unknown` into an interface shape (DOM element, API response)
+- The `override` keyword for explicit method overriding in a subclass
+- Method overriding behavior and interview question (subclass replaces the base implementation)
+- TypeScript decorators: legacy method decorator signature (`target`, `methodName`, `descriptor`)
+- Newer (Stage 3) decorator signature (`originalMethod`, `context`) for wrapping methods
+- Applying multiple decorators to a method and their execution order (bottom-up)
+- Enabling decorators in `tsconfig.json` (`experimentalDecorators`, `target: es2022` down-leveling)
 
 ## How to Run
 
